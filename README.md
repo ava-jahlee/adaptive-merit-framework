@@ -92,9 +92,16 @@ This generates population-weighted estimates using PISA sampling weights.
 - **URL**: https://www.oecd.org/pisa/data/2022database/
 - **Sample**: N = 6,377 (14 outliers removed via 1.5x IQR rule)
 - **Variables**:
-  - PV1MATH to PV10MATH (plausible values for mathematics)
+  - PV1MATH to PV10MATH (plausible values for mathematics) - available in the raw PISA dataset.
   - ESCS (Economic, Social, and Cultural Status index)
   - W_FSTUWT (sampling weights)
+ 
+Note on plausible values and actual analysis
+- Although the PISA dataset provides PV1MATH–PV10MATH, this repository's analyses (as implemented in the scripts) use PV1MATH only for the primary score variable. The reason for using PV1MATH in the current analysis is to preserve consistency with the originally reported results and to keep the processing pipeline straightforward and reproducible for readers.
+- If you prefer to account for plausible-value uncertainty in downstream inference (recommended for more rigorous variance estimation), one can:
+  - (Simple) use the mean of PV1–PV10 as a single score per student, or
+  - (Recommended) run analyses separately for each PV and combine estimates using multiple-imputation-style combining rules (Rubin's rules) to correctly reflect between-PV variance.
+- The codebase includes clear places to extend the pipeline to a full PV-based combining approach; see comments in `scripts/amf_weighted_analysis.py` and `scripts/amf_engine.py` for where to implement PV looping and combination.
 
 ## Requirements
 
