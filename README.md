@@ -123,16 +123,7 @@ Expected runtime: ~2-3 minutes on a standard laptop.
 
 ## Citation
 
-If you use this code, please cite:
-
-```bibtex
-@article{lee2025amf,
-  title={Adaptive Merit Framework: Merit-Anchored Fairness via SES Correction},
-  author={Lee, Jung-Ah},
-  journal={arXiv preprint},
-  year={2025}
-}
-```
+If you use this code, please cite
 
 ## Contact
 
