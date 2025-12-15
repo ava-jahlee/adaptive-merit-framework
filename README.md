@@ -6,6 +6,8 @@ A merit-anchored fairness mechanism for educational admissions that integrates S
 
 **Adaptive Merit Framework: Merit-Anchored Fairness via SES Correction**
 
+This work is publicly readable.
+- Available at SSRN: https://ssrn.com/abstract=5872762 or http://dx.doi.org/10.2139/ssrn.5872762
 - arXiv: [Link will be added after submission]
 - Author: Jung-Ah Lee (ava.jahlee@gmail.com)
 
