@@ -38,7 +38,6 @@ adaptive-merit-framework/
     ├── amf_engine.py           # Core AMF implementation
     ├── run_amf_all_results.py  # Main analysis script
     ├── amf_weighted_analysis.py # Population-weighted estimation
-    └── pisa2022_korea.csv      # PISA 2022 Korea data
 ```
 
 ## Installation
