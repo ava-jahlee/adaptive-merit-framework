@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "Adaptive Merit Framework: Merit-Anchored Fairness via SES Correction"
+authors:
+  - family-names: Lee
+    given-names: Jung-Ah
+year: 2025
+doi: 10.48550/arXiv.2512.13698
+url: https://arxiv.org/abs/2512.13698
+repository-code: https://github.com/ava-jahlee/adaptive-merit-framework
+abstract: >
+  A policy-engineered admissions mechanism that preserves merit-based thresholds
+  while incorporating continuous SES correction via a non-zero-sum architecture.
