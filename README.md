@@ -8,7 +8,7 @@ A merit-anchored fairness mechanism for educational admissions that integrates S
 
 This work is publicly readable.
 - Available at SSRN: https://ssrn.com/abstract=5872762 or http://dx.doi.org/10.2139/ssrn.5872762
-- arXiv: [Link will be added after submission]
+- Available at arXiv: http://doi.org/10.48550/arXiv.2512.13698
 - Author: Jung-Ah Lee (ava.jahlee@gmail.com)
 
 ## Overview
@@ -124,7 +124,14 @@ Expected runtime: ~2-3 minutes on a standard laptop.
 
 ## Citation
 
-If you use this code, please cite
+If you use this work, please cite:
+
+Lee, Jung-Ah (2025).  
+*Adaptive Merit Framework: Merit-Anchored Fairness via SES Correction*.  
+arXiv:2512.13698. https://doi.org/10.48550/arXiv.2512.13698  
+
+SSRN version: https://ssrn.com/abstract=5872762
+
 
 ## Contact
 
